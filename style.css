@@ -1,0 +1,145 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: rgb(7, 85, 81);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 90vw;
+  }
+  
+  .navbar {
+    padding: 50px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .nav-logo {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .nav-check-btn {
+    border: none;
+    background-color: rgb(7, 85, 81);
+    border-radius: 10px 10px 0 0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+  }
+  
+  .btn-text,
+  .nav-check-icon {
+    color: #fff;
+  }
+  
+  .nav-search {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(7, 85, 81);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .text {
+    padding: 20px 0;
+  }
+  
+  .nav-input-search {
+    border: 2px solid rgb(7, 85, 81);
+    display: flex;
+    align-items: center;
+    gap: 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-input-search-icon {
+    background-color: rgb(7, 85, 81);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 7px 0 0 7px;
+  }
+  
+  .nav-input {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  
+  .navbar-btn{
+      position: relative;
+  }
+  
+  .chek-lengueches{
+      position: absolute;
+      width: 100%;
+      background-color: rgba(169, 169, 169, 0.192);
+      color: rgb(7, 85, 81);
+      border-radius: 0 0 10px 10px;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      padding: 10px 0;
+  }
+  
+  .chek-lengueches a{
+      padding: 5px 0;
+  }
+  
+  .chek-lengueches a:hover{
+    background-color: rgb(7, 85, 81);
+    color: #fff;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  /* ///////////////////// */
+  
+  .hidden {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
